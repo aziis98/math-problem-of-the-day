@@ -13,87 +13,79 @@
     <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
 </head>
 
-<body style="margin-bottom: 20vh;">
+<body>
 
-    <!--<nav class="blue nav-extended">
-        <div class="nav-wrapper">
-            <a href="#" class="brand-logo white-text center">
-                #mathproblemoftheday
-            </a>
-        </div>
-        <div class="nav-content">
-            <span class="nav-title">
-                Math Problem Of The Day
-            </span>
-        </div>
-    </nav>-->
+    <div class="row">
+        <div class="valign-wrapper col s12 m10 offset-m1 l8 offset-l2" style="min-height: 100vh;">
 
-    <div class="container">
-        <div class="row">
-            <div class="col s12">
+            <div>
+            <!--<div class="valign-wrapper row" style="min-height: 100vh;">-->
+                <!--<div class="col s12">-->
 
-                <div class="valign-wrapper" style="min-height: 100vh;">
-                    <div class="container">
+                    <!--<div style="height: 2em;"></div>-->
 
-                        <!--<div style="height: 2em;"></div>-->
+                    <h1 class="center-align">
+                        Problema del giorno
+                    </h1>
+                    <p class="blue-text center-align" style="font-size: 1.9rem;">#mathproblemoftheday</small>
+                    
+                    <p>
+                        Una o più volte al giorno pubblico su questa pagina nuovi problemi di 
+                        matematica (principalmente integrali e limiti) formattati al meglio in \(\LaTeX\). 
+                        Ecco il problema di oggi:
+                    </p>
 
-                        <h1 class="center-align">
-                            Problema del giorno
-                        </h1>
-                        <p class="blue-text center-align" style="font-size: 1.9rem;">#mathproblemoftheday</small>
-                        
-                        <p>
-                            Una o più volte al giorno pubblico su questa pagina nuovi problemi di 
-                            matematica (principalmente integrali e limiti) formattati al meglio in \(\LaTeX\). 
-                            Ecco il problema di oggi:
-                        </p>
-
-                        <div id="inject--day-problem">
-                            <div class="card">
-                                <div class="card-content">
-                                    <span class="card-title">Problema del 10 Luglio 2017</span>
-                                    <p style="margin: 3em 0;">
-                                        $$ \int\limits_{1}^{5}{x^2 \mathrm{d}x} $$
-                                    </p>
-                                    
-                                    <span class="">
-                                        Risultato:
-                                        <div class="chip orange accent-3 white-text">Numerico</div>
-                                    </span>
-                                    <span class="">
-                                        Tags: 
-                                        <div class="chip blue white-text">Integrali</div>
-                                        <div class="chip blue white-text">Analisi</div>
-                                    </span>
-                                </div>
-                                <div class="card-action">
-                                    <a onclick="showModal('\\frac{124}{3}');" class="blue-text" style="cursor: pointer;">Mostra Risultato</a>
-                                </div>
-                            </div>
-
-                        </div>
-
-                        <div style="height: 4em;"></div>
-
-                    </div>
-                </div>
-
-                <div class="container">
-                    <h3 class="center-align">Problemi precedenti</h3>
-
-                    <div class="container" id="inject--old-problems">
+                    <div id="inject--day-problem">
                         <!-- Injected -->
                     </div>
 
+                    </div>
 
-                </div>
+                    <div style="height: 4em;"></div>
 
-                <!--<div class="row center-align">
-                    <a href="#" class="btn waves-effect">Carica altri</a>
-                </div>-->
+                <!--</div>-->
+            </div>
+
+            <!--<div class="row center-align">
+                <a href="#" class="btn waves-effect">Carica altri</a>
+            </div>-->
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col s12 m8 offset-m2 l6 offset-l3">
+            <h3 class="center-align">Problemi precedenti</h3>
+
+            <div class="no-container" id="inject--old-problems">
+                <!-- Injected -->
             </div>
         </div>
     </div>
+
+    <div class="row" style="height: 200px;"></div>
+
+    <footer class="page-footer orange">
+        <div class="container">
+            <div class="row">
+                <div class="col l6 s12">
+                    <h5 class="white-text">Footer Content</h5>
+                    <p class="grey-text text-lighten-4">You can use rows and columns here to organize your footer content.</p>
+                </div>
+                <div class="col l4 offset-l2 s12">
+                    <h5 class="white-text">Links</h5>
+                    <ul>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 1</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 2</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 3</a></li>
+                        <li><a class="grey-text text-lighten-3" href="#!">Link 4</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="footer-copyright">
+            <div class="container"> &copy; Antonio De Lucreziis </div>
+        </div>
+    </footer>
 
     <div id="result-modal" class="modal">
         <div class="modal-content">

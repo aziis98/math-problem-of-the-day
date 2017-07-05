@@ -27,7 +27,7 @@ templates['problem'] = template({"1":function(container,depth0,helpers,partials,
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.bonus : depth0),{"name":"if","hash":{},"fn":container.program(1, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "</span>\r\n        <p style=\"margin: 3em 0;\">\r\n            $$ "
     + alias4(((helper = (helper = helpers.contentLatex || (depth0 != null ? depth0.contentLatex : depth0)) != null ? helper : alias2),(typeof helper === alias3 ? helper.call(alias1,{"name":"contentLatex","hash":{},"data":data}) : helper)))
-    + " $$\r\n        </p>\r\n        \r\n"
+    + " $$\r\n        </p>\r\n        \r\n    </div>\r\n    <div class=\"card-action\">\r\n"
     + ((stack1 = helpers["if"].call(alias1,(depth0 != null ? depth0.resultType : depth0),{"name":"if","hash":{},"fn":container.program(3, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
     + "        <span class=\"\">\r\n            Tags:\r\n"
     + ((stack1 = helpers.each.call(alias1,(depth0 != null ? depth0.tags : depth0),{"name":"each","hash":{},"fn":container.program(5, data, 0),"inverse":container.noop,"data":data})) != null ? stack1 : "")
