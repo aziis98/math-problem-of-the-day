@@ -1,0 +1,29 @@
+<div class="card hoverable" data-id="{{id}}">
+    <div class="card-content">
+        <span class="card-title">{{title}} {{#if bonus}} ({{bonus}}) {{/if}}</span>
+        <p style="margin: 3em 0;">
+            $$ {{contentLatex}} $$
+        </p>
+        
+        {{#if resultType}}
+            <span class="">
+                Risultato:
+                <div class="chip orange accent-3 white-text">{{resultType}}</div>
+            </span>
+        {{/if}}
+        <span class="">
+            Tags:
+            {{#each tags}}
+                <div class="chip blue white-text">{{this}}</div>
+            {{/each}}
+        </span>
+    </div>
+    <div class="card-action">
+        <a class="--show-modal blue-text" style="cursor: pointer;">Mostra Risultato</a>
+        <a class="--share blue-text"
+            data-clipboard-text="https://aziis98.github.io/math-problem-of-the-day/problem.html/#{{id}}" 
+            style="cursor: pointer;">
+            Condividi
+        </a>
+    </div>
+</div>

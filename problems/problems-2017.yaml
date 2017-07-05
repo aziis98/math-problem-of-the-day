@@ -1,0 +1,36 @@
+problems:
+  - show-up: 2017-07-10 10:00:00
+    title: Problema del 10 Luglio 2017
+    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
+    resultLatex: \text{Boh}
+    resultType: Numerico
+    tags: 
+    - Integrali
+    - Analisi 1
+
+  - show-up: 2017-07-2 10:00:00
+    title: Problema del 2 Luglio 2017
+    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
+    resultLatex: \text{Boh}
+    resultType: Numerico
+    tags: 
+    - Integrali
+    - Analisi 1
+
+  - show-up: 2017-07-3 10:00:00
+    title: Problema del 3 Luglio 2017
+    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
+    resultLatex: \text{Boh}
+    resultType: Numerico
+    tags: 
+    - Integrali
+    - Analisi 1
+
+  - show-up: 2017-07-4 10:00:00
+    title: Problema del 4 Luglio 2017
+    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
+    resultLatex: \text{Boh}
+    resultType: Numerico
+    tags: 
+    - Integrali
+    - Analisi 1

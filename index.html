@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html style="font-family: Open Sans;">
+
+<head>
+    <!--Import Google Icon Font-->
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <!-- Compiled and minified CSS -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/css/materialize.min.css">
+
+    <!--Let browser know website is optimized for mobile-->
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <script type="text/javascript" async src="https://cdnjs.cloudflare.com/ajax/libs/mathjax/2.7.1/MathJax.js?config=TeX-MML-AM_CHTML"></script>
+</head>
+
+<body style="margin-bottom: 20vh;">
+
+    <!--<nav class="blue nav-extended">
+        <div class="nav-wrapper">
+            <a href="#" class="brand-logo white-text center">
+                #mathproblemoftheday
+            </a>
+        </div>
+        <div class="nav-content">
+            <span class="nav-title">
+                Math Problem Of The Day
+            </span>
+        </div>
+    </nav>-->
+
+    <div class="container">
+        <div class="row">
+            <div class="col s12">
+
+                <div class="valign-wrapper" style="min-height: 100vh;">
+                    <div class="container">
+
+                        <!--<div style="height: 2em;"></div>-->
+
+                        <h1 class="center-align">
+                            Problema del giorno
+                        </h1>
+                        <p class="blue-text center-align" style="font-size: 1.9rem;">#mathproblemoftheday</small>
+                        
+                        <p>
+                            Una o più volte al giorno pubblico su questa pagina nuovi problemi di 
+                            matematica (principalmente integrali e limiti) formattati al meglio in \(\LaTeX\). 
+                            Ecco il problema di oggi:
+                        </p>
+
+                        <div id="inject--day-problem">
+                            <div class="card">
+                                <div class="card-content">
+                                    <span class="card-title">Problema del 10 Luglio 2017</span>
+                                    <p style="margin: 3em 0;">
+                                        $$ \int\limits_{1}^{5}{x^2 \mathrm{d}x} $$
+                                    </p>
+                                    
+                                    <span class="">
+                                        Risultato:
+                                        <div class="chip orange accent-3 white-text">Numerico</div>
+                                    </span>
+                                    <span class="">
+                                        Tags: 
+                                        <div class="chip blue white-text">Integrali</div>
+                                        <div class="chip blue white-text">Analisi</div>
+                                    </span>
+                                </div>
+                                <div class="card-action">
+                                    <a onclick="showModal('\\frac{124}{3}');" class="blue-text" style="cursor: pointer;">Mostra Risultato</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div style="height: 4em;"></div>
+
+                    </div>
+                </div>
+
+                <div class="container">
+                    <h3 class="center-align">Problemi precedenti</h3>
+
+                    <div class="container" id="inject--old-problems">
+                        <!-- Injected -->
+                    </div>
+
+
+                </div>
+
+                <!--<div class="row center-align">
+                    <a href="#" class="btn waves-effect">Carica altri</a>
+                </div>-->
+            </div>
+        </div>
+    </div>
+
+    <div id="result-modal" class="modal">
+        <div class="modal-content">
+            <p class="center-align">Il risultato del problema è <span id="result-container"></span></p>
+        </div>
+        <div class="modal-footer">
+            <a href="#!" class="modal-action modal-close waves-effect blue white-text btn">OK</a>
+        </div>
+    </div>
+
+    <!-- Materialize JS -->
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.99.0/js/materialize.min.js"></script>
+    
+    <!-- My Libraries -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lodash.js/4.17.4/lodash.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/js-yaml/3.8.4/js-yaml.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/handlebars.js/4.0.10/handlebars.runtime.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/clipboard.js/1.7.1/clipboard.min.js"></script>
+
+    <!-- My Files -->
+    <script src="./templates/problem.js"></script>
+    <script src="./app.js"></script>
+</body>
+
+</html>
