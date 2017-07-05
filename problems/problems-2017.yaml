@@ -1,36 +1,50 @@
 problems:
-  - show-up: 2017-07-10 10:00:00
-    title: Problema del 10 Luglio 2017
-    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
-    resultLatex: \text{Boh}
+
+  - show-up: 2017-07-5 19:00:00
+    title: Problema del 5 Luglio 2017
+    contentLatex: > 
+                    3\sin\left(\frac{x}{3}\right) - 4\sin^3\left(\frac{x}{3}\right)
+    resultLatex: \sin(x)
+    bonus: 2
+    resultType: Espressione
+    tags: 
+    - Trigonometria
+  
+  # =================================== #
+
+  - show-up: 2017-07-5 14:00:00
+    title: Problema del 5 Luglio 2017
+    contentLatex: > 
+                    \lim\limits_{x \to 0}{\frac{\sin(2x)-2x}{x^3}}
+    resultLatex: -\frac{4}{3}
     resultType: Numerico
     tags: 
-    - Integrali
-    - Analisi 1
-
-  - show-up: 2017-07-2 10:00:00
-    title: Problema del 2 Luglio 2017
-    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
-    resultLatex: \text{Boh}
-    resultType: Numerico
-    tags: 
-    - Integrali
-    - Analisi 1
-
-  - show-up: 2017-07-3 10:00:00
-    title: Problema del 3 Luglio 2017
-    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
-    resultLatex: \text{Boh}
-    resultType: Numerico
-    tags: 
-    - Integrali
-    - Analisi 1
-
-  - show-up: 2017-07-4 10:00:00
+    - Limiti
+    
+  # =================================== #
+  
+  - show-up: 2017-07-4 00:10:00
     title: Problema del 4 Luglio 2017
-    contentLatex: \int\limits_{0}^{10}{2x \mathrm{d}x}
-    resultLatex: \text{Boh}
+    contentLatex: > 
+                    \text{Dato un quadrato ABCD di area 64 calcolare l'area} \\ \text{
+                    della corona circolare composta dalla circonferenza} \\ \text{
+                    inscritta e circoscritta al 
+                    quadrato.}
+    resultLatex: 16\pi
     resultType: Numerico
     tags: 
-    - Integrali
-    - Analisi 1
+    - Geometria
+    - A mente
+    
+  # =================================== #
+  
+  - show-up: 2017-07-1 22:00:00
+    title: Problema del 1 Luglio 2017
+    contentLatex: > 
+                    \lim_{x \to \infty}\frac{\ln(x^2+1)}{\ln(x^3+1)}
+    resultLatex: \frac{2}{3}
+    resultType: Numerico
+    tags: 
+    - Limiti
+    
+  # =================================== #

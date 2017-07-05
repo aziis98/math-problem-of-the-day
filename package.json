@@ -9,7 +9,8 @@
     "typescript": "^2.4.1"
   },
   "scripts": {
-    "serve": "live-server"
+    "serve": "live-server",
+    "build": "handlebars ./templates/problem.handlebars -f ./templates/problem.js"
   },
   "dependencies": {
     "@types/jquery": "^3.2.5"

@@ -20,7 +20,8 @@ function loadProblems() {
                             .reverse()
                             .tap(list => { // Inject id property based on time
                                 _.each(list, it => {
-                                    it.id = it['show-up'].getTime().toString()
+                                    const showUp = it['show-up'];
+                                    it.id = showUp.getTime().toString();
                                 });
                             })
                             .value();
