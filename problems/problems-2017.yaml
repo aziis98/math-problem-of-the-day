@@ -1,6 +1,6 @@
 problems:
 
-  - show-up: 2017-07-7 21:00:00
+  - show-up: 2017-07-7 21:00:00 +2
     title: Problema del 7 Luglio 2017
     contentLatex: >
                     \lim\limits_{x \to 0}{x \sin\left(\dfrac{1}{x}\right)}
@@ -11,7 +11,7 @@ problems:
 
   # =================================== #
 
-  - show-up: 2017-07-5 19:00:00
+  - show-up: 2017-07-5 19:00:00 +2
     title: Problema del 5 Luglio 2017
     contentLatex: > 
                     3\sin\left(\frac{x}{3}\right) - 4\sin^3\left(\frac{x}{3}\right)
@@ -23,7 +23,7 @@ problems:
   
   # =================================== #
 
-  - show-up: 2017-07-5 14:00:00
+  - show-up: 2017-07-5 14:00:00 +2
     title: Problema del 5 Luglio 2017
     contentLatex: > 
                     \lim\limits_{x \to 0}{\frac{\sin(2x)-2x}{x^3}}
@@ -34,7 +34,7 @@ problems:
     
   # =================================== #
   
-  - show-up: 2017-07-4 00:10:00
+  - show-up: 2017-07-4 00:10:00 +2
     title: Problema del 4 Luglio 2017
     contentLatex: > 
                     \text{Dato un quadrato ABCD di area 64 calcolare l'area} \\ \text{
@@ -49,7 +49,7 @@ problems:
     
   # =================================== #
   
-  - show-up: 2017-07-1 22:00:00
+  - show-up: 2017-07-1 22:00:00 +2
     title: Problema del 1 Luglio 2017
     contentLatex: > 
                     \lim_{x \to \infty}\frac{\ln(x^2+1)}{\ln(x^3+1)}
