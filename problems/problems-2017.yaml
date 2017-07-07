@@ -1,5 +1,16 @@
 problems:
 
+  - show-up: 2017-07-7 21:00:00
+    title: Problema del 7 Luglio 2017
+    contentLatex: >
+                    \lim\limits_{x \to 0}{x \sin\left(\dfrac{1}{x}\right)}
+    resultLatex: 0
+    resultType: Numerico
+    tags:
+    - Limiti
+
+  # =================================== #
+
   - show-up: 2017-07-5 19:00:00
     title: Problema del 5 Luglio 2017
     contentLatex: > 
