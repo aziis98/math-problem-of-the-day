@@ -15,7 +15,7 @@ problems:
     title: Problema del 6 Luglio 2017
     contentLatex: >
                     \lim\limits_{x \to 0}{\dfrac{3sin(\frac{x}{3}) - 4sin^3(\frac{x}{3}) + sin(2x) - 3x}{x^3}}
-    resultLatex: -frac{3}{2}
+    resultLatex: -\frac{3}{2}
     resultType: Numerico
     tags:
     - Limiti
